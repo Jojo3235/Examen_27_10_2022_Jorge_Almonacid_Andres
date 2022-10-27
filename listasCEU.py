@@ -17,20 +17,18 @@ def cambiar_pos(lista):
 
 def eliminar(lista):
     elem=lista[-1]
-    lista_mod=lista.remove(elem)
-    return lista_mod
+    lista.remove(elem)
+    return lista
 
 def list_dupe_elem(lista):
     elem=lista[1]
-    lista_mod=lista.append(elem)
-    return lista_mod
+    lista.append(elem)
+    return lista
 
+print(lista)
 print(dos_elem_fin_list(lista))
 print(cambiar_pos(lista))
 lista_nueva=cambiar_pos(lista)
-print(cambiar_pos(lista_nueva))
-lista2=cambiar_pos(lista_nueva)
-print(eliminar(lista2))
-lista3=eliminar(lista2)
-print(list_dupe_elem(lista3))
-
+print(eliminar(lista_nueva))
+lista2=eliminar(lista_nueva)
+print(list_dupe_elem(lista2))
