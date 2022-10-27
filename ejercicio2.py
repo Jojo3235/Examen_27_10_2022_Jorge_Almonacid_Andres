@@ -5,4 +5,15 @@ def voltear_cadena(cadena):
     cadena_arreglada=cadena[::-1]
     return cadena_arreglada
 
-print(voltear_cadena(cadena))
+def listificar_cadena(cadena):
+    cadena_arreglada=voltear_cadena(cadena)
+    cadena_sep=cadena_arreglada.split(",")
+    return cadena_sep
+
+lista_cadena=listificar_cadena(cadena)
+def resultado(lista):
+    el1=lista[0]
+    el2=lista[1]
+    print("{} ha sacado un {} de nota".format(el2,el1))
+
+resultado(lista_cadena)
