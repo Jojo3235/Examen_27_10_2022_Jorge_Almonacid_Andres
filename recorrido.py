@@ -1,7 +1,5 @@
 #Ejercicio 7
 
-import sys
-
 lista=[18,50,210,80,145,333,70,30]
 
 def sacar_multiplos10_menor100(lista):
