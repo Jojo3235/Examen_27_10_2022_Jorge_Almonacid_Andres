@@ -23,4 +23,20 @@ longitud_var=longitud(var_1)
 print(div(longitud_var,7))
 
 def funcion1():
-    
+    return (12-(4*2)-(2+2))
+
+print(funcion1())
+
+def funcion2():
+    return 12-4*(2-2)+2
+
+print(funcion2())
+
+def funcion3():
+    edad = int(input("Introduce tu edad: "))
+    if edad >= 18:
+        print("Es mayor de edad")
+    else:
+        print("Es menor de edad")
+
+funcion3()
