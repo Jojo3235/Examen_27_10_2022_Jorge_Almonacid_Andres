@@ -16,4 +16,5 @@ def resultado(lista):
     el2=lista[1]
     print("{} ha sacado un {} de nota".format(el2,el1))
 
-resultado(lista_cadena)
+if __name__=="__main__":
+    resultado(lista_cadena)
