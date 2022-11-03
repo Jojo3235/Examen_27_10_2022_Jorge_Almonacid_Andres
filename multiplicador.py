@@ -8,13 +8,15 @@ def pedir_numero():
 
 def multiplicar_9(num):
     numero=9*num
-    print(num,"*","9=",numero)
+    return "{} * 9 = {}".format(num,numero)
 
 numero_pedido=pedir_numero()
 multiplicar_9(numero_pedido)
 
 def multiplicación_mágica(num):
     numero=num*numero_magico
-    print(num,"*",numero_magico,"=",numero)
+    return "{} * {} = {}".format(num, numero_magico,numero)
 
-multiplicación_mágica(numero_pedido)
+if __name__=="__main__":
+    print(multiplicación_mágica(numero_pedido))
+    print(multiplicar_9(numero_pedido))

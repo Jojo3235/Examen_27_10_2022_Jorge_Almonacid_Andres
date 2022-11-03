@@ -10,5 +10,6 @@ def sacar_multiplos10_menor100(lista):
             if elements%10==0 and elements<200:
                 print(elements)
 
-sacar_multiplos10_menor100(lista)
+if __name__=="__main__":
+    sacar_multiplos10_menor100(lista)
 

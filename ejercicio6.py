@@ -36,5 +36,7 @@ def comprobar(lista_num):
     print(lista[0]==sum(lista[1:]))
 
 lista=[3,2,3,4,41,3,3,4,3]
-print(modificar(lista))
-comprobar(lista)
+
+if __name__=="__main__": 
+    print(modificar(lista))
+    comprobar(lista)
