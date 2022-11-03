@@ -14,7 +14,7 @@ lista_cadena=listificar_cadena(cadena)
 def resultado(lista):
     el1=lista[0]
     el2=lista[1]
-    print("{} ha sacado un {} de nota".format(el2,el1))
+    return "{} ha sacado un {} de nota".format(el2,el1)
 
 if __name__=="__main__":
-    resultado(lista_cadena)
+    print(resultado(lista_cadena))
